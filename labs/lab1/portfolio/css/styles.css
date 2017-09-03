@@ -9,6 +9,17 @@ header, main, nav, footer
 {
     text-align: center;
 }
+#content
+{
+    text-align: center;
+    width:900px;
+    margin: 0 auto;
+}
+ h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 4em;
+        margin-bottom: 0px;
+    }
 
 nav a
 {
@@ -18,6 +29,13 @@ nav a
     color:white;
     
 }
+
+ nav a:hover
+ { 
+         border-bottom:2px orange solid;
+         font-size: 2em;
+         transition: .9s;
+    }
 
 table 
 {
@@ -52,15 +70,13 @@ ul
 {
     color:yellow;
 }
-/*nav a:hover{
-    border-bottom: 2px orange solid;
-    transition: .9s;
-}*/
 
 
 #me, #welcomeText
 {
+    text-align: center;
     float:left;
+    font-size: 1.5em;
 }
 
 footer
