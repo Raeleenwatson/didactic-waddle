@@ -14,6 +14,7 @@ header,footer,main,nav
 {
   margin: 2%;
   overflow: hidden;
+  text-align: center;
   /*width: 540px*/
 }
 .jobdata img
@@ -49,6 +50,7 @@ header
 
 nav a
 {
+    width=50%;
     padding:15px;
     padding-bottom: 4px;
     font-size: 1.8em;
