@@ -15,12 +15,10 @@ header,footer,main,nav
   margin: 2%;
   overflow: hidden;
   text-align: center;
-  /*width: 540px*/
 }
 .jobdata img
 {
-     max-width: 100%;
-  
+    max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
