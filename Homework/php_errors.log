@@ -1,0 +1,4 @@
+[15-Sep-2017 02:33:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/rwatson/Homework/homework2/webpage.php on line 28
+[15-Sep-2017 02:34:59 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/rwatson/Homework/homework2/webpage.php on line 27
+[15-Sep-2017 02:34:59 UTC] PHP Stack trace:
+[15-Sep-2017 02:34:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/Homework/homework2/webpage.php:0

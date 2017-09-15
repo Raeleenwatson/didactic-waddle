@@ -1,0 +1,19 @@
+header,main,body
+{
+    text-align: center;
+}
+header
+{
+    
+    font-size:3.5em;
+    background-color: gray;
+    width:50%;
+    margin: 0 auto;
+    
+}
+
+#mainContent
+{
+    border-style:solid;
+    width:70%;
+}
