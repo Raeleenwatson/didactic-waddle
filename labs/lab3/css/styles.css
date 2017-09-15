@@ -1,19 +1,15 @@
 header,main,body
 {
     text-align: center;
+    
 }
 header
 {
     
     font-size:3.5em;
-    background-color: gray;
+    background-color: DarkGray;
     width:50%;
     margin: 0 auto;
-    
+    color:black;
 }
 
-#mainContent
-{
-    border-style:solid;
-    width:70%;
-}
