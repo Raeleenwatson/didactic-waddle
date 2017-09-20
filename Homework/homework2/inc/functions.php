@@ -1,5 +1,19 @@
 <?php
 
+$message="";
+
+$imgArray=array("50giftcard","100giftcard","blush","brushset","contourkit","eyeshadow","foundation","highlighter","lipgloss","makeupremover","nakedshadow");
+
+
+$arrLength= count($imgArray);
+
+
+
+sort($imgArray); //fct
+shuffle($imgArray);
+array_rand($imgArray);
+
+
 function displayImage($randomPic)
 {
     switch($randomPic)
@@ -27,22 +41,50 @@ function displayImage($randomPic)
             case 10: $symbol= "nakedshadow";
                break;
     }
-    echo "<img id='pics'src ='img/$symbol.jpg' alt='$symbol' title='" .ucfirst($symbol)."' width=35%/>";
+    $message=$symbol;
     
-    
+    echo "<img id='pics' src ='img/$symbol.jpg' alt='$symbol' title='" .ucfirst($symbol)."' width=35% />";
 }
+function showText()
+{
+    for($i=0;$i<11;$i++)
+    {
+        if($message==$imgArray[$i])
+        {
+            echo "BEST GIFT!!";
+            break;
+        }
+    }
+}
+
 
 function play()
         {
             for($i=1;$i<2;$i++)
             {
-                ${"randomPic". $i } =rand(0,10);
-                displayImage(${"randomPic" . $i}, $i );
+               
+               $randomPic=rand(0,10);
+                displayImage($randomPic);
             }
+           
             
         }
 
 
+/*
+
+function play()
+        {
+            for($i=1;$i<2;$i++)
+            {
+                
+                ${"randomPic". $i } =rand(0,10);
+                displayImage(${"randomPic" . $i});
+                
+            }
+            
+        }
+*/
 
 
 

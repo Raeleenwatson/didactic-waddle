@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -7,12 +5,20 @@
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
     <head>
+        <div id="wholepage">
         <meta charset="utf-8" />
         <title> Girls Site </title>
         <style>
        @import url("css/styles.css");
-       </style>
+      </style>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      
+  <?php
+  
+  
+   include 'inc/functions.php';
+   ?>
+    
     </head>
     
     
@@ -20,7 +26,9 @@
 
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
-    <body>
+    <body background="glitter.jpg">
+    <div id="mainpage">
+    <div id="wholepage">
      
         <header>
             <h1> Welcome to the Beauty Bar!</h1>
@@ -32,46 +40,44 @@
         </div>
     
         <div class ="content">
-            
+        
         <figure id= "lipPic">
             <img src="lips2.png" alt="Picture of lips"/>
         </figure>
         
         <form>
-            <input type=submit value="Click for prize!" />
+            <input type="submit" value="Click for prize!" ;" />
         </form>
+        
+        
         
         </div>
         
+        <div id="text">
         <?php
+            showText();
+        ?>
+        </div>
+        
+        
+        
+        
+      
+      
+        <?php
+    
      
-      include 'inc/functions.php';
-      play();
+       play();
+      
       
       ?>
         
         <main>
             
-        <!--
-            <div class="cspicture">
-            <figure id="pic"> 
-                <img src="img/computerscience.jpg" alt="Picture of Code" width=450 height=250 />
-            </figure>
-            </div>
-            
-            <div class="content">
-            <div id="info">
-                <p>With technology advancing there are many different things to do with programming languages.</p>
-                <p>Anyone with the knowledge of how to program can create almost anything they want. </p>
-                <p>Programming isn't just used on personal computers to create programs. Programming can also be used to program robots, arduinos, create android apps, etc. </p>
-                <p>Depending what someone is trying to accomplish, they would use whatever language fit the program best.</p>
-                <p>For example, if someone wanted to create an android app they would use Java simply because it has a lot of framwork features. It's best to be familiar with multiple languages so that the project can be executed best. </p>
-            
-            </div>
-            </div>
-            
-            
-        -->
+        <div id="infoText">
+            <p>Thank you for being a loyal member! We are giving you a free makeup goodie along with the random prize! </p>
+            <p>We hope you enjoy your gifts. Everyone from Beauty Bar appreciates your commitment to our company!</p>
+        </div>
             
         </main>
         
@@ -79,17 +85,23 @@
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         
-       
-        <footer>
+       <footer>
         
+        <div id="endInfo">
             <hr>
             
-           
+            
+             CST 336. 2017&copy; Watson <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+           </div>
         </footer>
+        
+    </div>
         <!-- closing footer -->
         
     </body>
     <!-- closing body -->
-
+</div>
 </html>
 

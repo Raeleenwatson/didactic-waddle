@@ -1,14 +1,12 @@
 header
 {
-    background-color: white;
     width=700px;
     color:DarkGray;
     font-family: 'Open Sans', sans-serif;
 }
 main,body
 {
-    text-align: center;
-    background-color:pink; 
+    text-align: center; 
     color:DarkGray;
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
@@ -52,7 +50,7 @@ input
     top:350px;
 }
 
-#pics
+.pics
 {
     text-align: left;
 }
@@ -60,4 +58,42 @@ input
 footer
 {
     margin-bottom: 0px;
+}
+
+#text
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+#infoText
+{
+    text-align: left;
+    font-size: 2em;
+}
+
+footer
+{
+    text-align: center;
+}
+
+#mainpage
+{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    height: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+#wholepage
+{
+     background-color: pink;
+     height:980px;
+}
+footer
+{
+    padding-bottom: 30;
 }
