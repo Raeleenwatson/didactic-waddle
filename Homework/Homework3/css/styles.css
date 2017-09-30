@@ -1,0 +1,108 @@
+header
+{
+    width=700px;
+    color:DarkGray;
+    font-family: 'Open Sans', sans-serif;
+}
+main,body
+{
+    text-align: center; 
+    color:DarkGray;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width:1000px;
+}
+h1
+{
+    font-size: 3.5em;
+    width=50%;
+    
+}
+#giveaway
+{
+    font-size:3em;
+}
+
+#submitButton
+{
+    position:absolute;
+    background-color: Transparent;
+    border:none;
+    outline:none;
+    color: white;
+    cursor:pointer;
+    font-size: 3em;
+    font-weight:bold;
+    left:335px;
+    top:380px;
+    
+    -ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+}
+
+#lipPic
+{
+    
+    float:left;
+    text-align: center;
+    left:150px;
+    top:350px;
+}
+
+.pics
+{
+    text-align: left;
+}
+
+footer
+{
+    margin-bottom: 0px;
+}
+
+#text
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+#infoText
+{
+    text-align: left;
+    font-size: 2em;
+}
+
+footer
+{
+    text-align: center;
+}
+
+#mainpage
+{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    height: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+#wholepage
+{
+     background-color: pink;
+     height:2000px;
+}
+footer
+{
+    padding-bottom: 30;
+}
+
+
+#informationBox
+{
+    text-align: left;
+    height: 500px;
+    color:white;
+}
+
