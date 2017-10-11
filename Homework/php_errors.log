@@ -253,3 +253,13 @@
 [20-Sep-2017 04:26:37 UTC] PHP Fatal error:  Call to undefined function showText() in /home/ubuntu/workspace/rwatson/Homework/homework2/webpage.php on line 54
 [20-Sep-2017 04:26:37 UTC] PHP Stack trace:
 [20-Sep-2017 04:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/Homework/homework2/webpage.php:0
+[10-Oct-2017 22:59:49 UTC] PHP Fatal error:  Call to undefined function goToPage() in /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php on line 134
+[10-Oct-2017 22:59:49 UTC] PHP Stack trace:
+[10-Oct-2017 22:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php:0
+[10-Oct-2017 23:57:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php on line 138
+[11-Oct-2017 03:35:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php on line 179
+[11-Oct-2017 03:53:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php on line 158
+[11-Oct-2017 06:26:49 UTC] PHP Fatal error:  Call to undefined function sessions_start() in /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php on line 3
+[11-Oct-2017 06:26:49 UTC] PHP Stack trace:
+[11-Oct-2017 06:26:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/Homework/Homework3/webpage.php:0
+[11-Oct-2017 08:07:07 UTC] PHP Parse error:  syntax error, unexpected '$nameCount' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/rwatson/Homework/Homework3/newpage.php on line 26

@@ -1,0 +1,29 @@
+[04-Oct-2017 20:49:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(7): PDO->__construct('mysql:host=loca...', NULL, '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php on line 7
+[06-Oct-2017 20:43:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(37): userswithanA()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php on line 19
+[06-Oct-2017 20:43:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(37): userswithanA()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php on line 19
+[06-Oct-2017 20:44:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(37): userswithanA()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php on line 19
+[06-Oct-2017 20:44:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(38): userswithanA()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php on line 19
