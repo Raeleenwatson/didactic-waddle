@@ -149,10 +149,13 @@ if (isset($_POST['submit']))
         <div id="endInfo">
             <hr>
             
-            
              CST 336. 2017&copy; Watson <br />
             <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
             It is used for academic purposes only.
+            
+            <figure>
+            <img src="buddy_verified.png" alt="Buddy Picture" />
+            </figure>
            </div>
         </footer>
         
