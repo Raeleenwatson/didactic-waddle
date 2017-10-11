@@ -84,7 +84,7 @@ if (isset($_POST['submit']))
         </figure>
         
         <form>
-            <input type="refresh" id="submitButton" value="Click for prize!" ;" />
+            <input type="submit" id="submitButton" value="Click for prize!" ;" />
         </form>
         
         </div>
