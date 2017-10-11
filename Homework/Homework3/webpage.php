@@ -132,11 +132,7 @@ if (isset($_POST['submit']))
             <input type="radio"  id="item1"  name="houseOptions" value="House"> <label for="item1">House</label> <br><br>
           <input type="radio"  id="item2"  name="houseOptions" value="Apartment"><label for="item2">Apartment</label> <br><br>
           
-          <?php
-          
-          $_SESSION["name"] = "$name";
-          
-          ?>
+        
           <input formaction="newpage.php" type="submit" value="Submit Info" >
          
              
