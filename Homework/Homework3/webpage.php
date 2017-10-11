@@ -1,6 +1,46 @@
+<?php
+
+
+$gender=$state="";
+$genderErr="";
+/*
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+    if (empty($_POST["gender"]))
+      {
+        $gender = $_POST["gender"];
+      }
+     else
+      {
+           $genderErr= "Missing"; 
+      }
+}
+
+
+if (isset($_POST['submit'])) 
+{
+    $gender = $_POST['gender'];
+    
+    if ($gender != "") 
+    {
+    
+    
+    }
+    else {
+    
+    echo 'ERROR!';
+    
+    }
+
+}*/
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
-
 
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
@@ -15,12 +55,10 @@
       
   <?php
   
-  
    include 'inc/functions.php';
    ?>
     
     </head>
-    
     
 <!-- closing head -->
 
@@ -28,9 +66,6 @@
     <!-- This is where we place the content of our website -->
     <body background="glitter.jpg">
         
-        
-        
-    
     <div id="mainpage">
     <div id="wholepage">
      
@@ -38,7 +73,6 @@
             <h1> Welcome to the Beauty Bar!</h1>
         </header>
     
-        
         <div id="giveaway">
        <p>CONGRATS YOU WON A FREE GIVEAWAY</p>
         </div>
@@ -50,8 +84,9 @@
         </figure>
         
         <form>
-            <input type="submit" id="submitButton" value="Click for prize!" ;" />
+            <input type="refresh" id="submitButton" value="Click for prize!" ;" />
         </form>
+        
         </div>
         
         <div id="text">
@@ -61,11 +96,7 @@
         </div>
         
         <?php
-    
-     
        play();
-      
-      
       ?>
         
         <main>
@@ -76,33 +107,44 @@
         </div>
             
         </main>
+        <form id="informationBox" >  
         
-        <form id="informationBox">
-        
-            Name: <input type="name" id="fullName"size="25"height=40 />   <br />
-            Gender: <input type="checkbox" id="guy"  name="gender" value="Gender">
-            <label for="guy">Male</label>
-             <input type="checkbox" id="girl" name="girlGender" value="Girl">
-            <label for="girl">Female</label>
+        <div id="nameSize">
+        Enter your information to recieve your free gifts!
+            <p>Name: <input type="name" name ="name" id="fullName"size="25"height=40 />   </p><br />
+            Gender:
+            <input type="checkbox" id="guy"  name="gender"
+            <?php if (isset($gender) && $gender=="male") echo "checked";?>  value="Male" >Male
+            
+             <input type="checkbox" id="girl" name="gender"
+             <?php if (isset($gender) && $gender=="female") echo "checked";?> value="Female" > Female
+             
             <br/><br/>
 
-            Address: <textarea id="address"cols="30" rows="2"></textarea> <br/>
-            Choose State: <select id="state">
-                <option value="AZ">Arizona</option>
+            Address: <textarea id="address"cols="30" rows="2" name="address"></textarea> <br/>
+            Choose State: <select id="state" name="state">
+                <option  value="AZ">Arizona</option>
                 <option value="CA">California</option>
                 <option value="NV">Nevada</option>
                 <option value="OR">Oregon</option> 
                 </select> <br/>
             Type of housing: <br/>
             <input type="radio"  id="item1"  name="houseOptions" value="House"> <label for="item1">House</label> <br><br>
-          <input type="radio"  id="item2"  name="aptOption" value="Apartment"><label for="item2">Apartment</label> <br><br>
-            <input type="infoButton" id="infoSubmit" value="Submit Information"/>
-
-            
-            
+          <input type="radio"  id="item2"  name="houseOptions" value="Apartment"><label for="item2">Apartment</label> <br><br>
+          
+          <?php
+          
+          $_SESSION["name"] = "$name";
+          
+          ?>
+          <input formaction="newpage.php" type="submit" value="Submit Info" >
+         
+             
+          
+        </div>
         </form>
-        
-        
+
+         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         
@@ -125,4 +167,3 @@
     <!-- closing body -->
 </div>
 </html>
-
