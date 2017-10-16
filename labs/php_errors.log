@@ -27,3 +27,195 @@ Stack trace:
 #1 /home/ubuntu/workspace/rwatson/labs/lab5/practice.php(38): userswithanA()
 #2 {main}
   thrown in /home/ubuntu/workspace/rwatson/labs/lab5/practice.php on line 19
+[11-Oct-2017 20:42:24 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[11-Oct-2017 20:42:24 UTC] PHP Stack trace:
+[11-Oct-2017 20:42:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:43:04 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 2
+[11-Oct-2017 20:43:04 UTC] PHP Stack trace:
+[11-Oct-2017 20:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:43:04 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 2
+[11-Oct-2017 20:43:04 UTC] PHP Stack trace:
+[11-Oct-2017 20:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:43:04 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[11-Oct-2017 20:43:04 UTC] PHP Stack trace:
+[11-Oct-2017 20:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:43:24 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[11-Oct-2017 20:43:24 UTC] PHP Stack trace:
+[11-Oct-2017 20:43:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:45:15 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 2
+[11-Oct-2017 20:45:15 UTC] PHP Stack trace:
+[11-Oct-2017 20:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:45:15 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 2
+[11-Oct-2017 20:45:15 UTC] PHP Stack trace:
+[11-Oct-2017 20:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:45:15 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[11-Oct-2017 20:45:15 UTC] PHP Stack trace:
+[11-Oct-2017 20:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:46:07 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[11-Oct-2017 20:46:07 UTC] PHP Stack trace:
+[11-Oct-2017 20:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:47:22 UTC] PHP Warning:  include(/../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 2
+[11-Oct-2017 20:47:22 UTC] PHP Stack trace:
+[11-Oct-2017 20:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:47:22 UTC] PHP Warning:  include(): Failed opening '/../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 2
+[11-Oct-2017 20:47:22 UTC] PHP Stack trace:
+[11-Oct-2017 20:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:47:22 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[11-Oct-2017 20:47:22 UTC] PHP Stack trace:
+[11-Oct-2017 20:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:48:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 5
+[11-Oct-2017 20:48:06 UTC] PHP Stack trace:
+[11-Oct-2017 20:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:48:34 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 5
+[11-Oct-2017 20:48:34 UTC] PHP Stack trace:
+[11-Oct-2017 20:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:48:54 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 5
+[11-Oct-2017 20:48:54 UTC] PHP Stack trace:
+[11-Oct-2017 20:48:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[11-Oct-2017 20:50:48 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 5
+[11-Oct-2017 20:50:48 UTC] PHP Stack trace:
+[11-Oct-2017 20:50:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[13-Oct-2017 19:16:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(57): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:21:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(64): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:24:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(70): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:26:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(70): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:26:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(70): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:26:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(70): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:28:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:32:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:33:25 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[13-Oct-2017 19:33:25 UTC] PHP Stack trace:
+[13-Oct-2017 19:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[13-Oct-2017 19:33:25 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[13-Oct-2017 19:33:25 UTC] PHP Stack trace:
+[13-Oct-2017 19:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[13-Oct-2017 19:33:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 5
+[13-Oct-2017 19:33:25 UTC] PHP Stack trace:
+[13-Oct-2017 19:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[13-Oct-2017 19:33:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:33:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:34:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:34:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/index.php(78): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 14
+[13-Oct-2017 19:50:02 UTC] PHP Parse error:  syntax error, unexpected '"<br />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 79
+[13-Oct-2017 19:50:04 UTC] PHP Parse error:  syntax error, unexpected '"<br />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 79
+[13-Oct-2017 20:47:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tc_checkout` 
+            NATURAL JOIN tc_device
+            NATURAL JOIN ' at line 2' in /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php on line 18
+[13-Oct-2017 20:47:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tc_checkout` 
+            NATURAL JOIN tc_device
+            NATURAL JOIN ' at line 2' in /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab5/checkoutHistory.php on line 18
+[16-Oct-2017 05:41:33 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[16-Oct-2017 05:41:33 UTC] PHP Stack trace:
+[16-Oct-2017 05:41:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[16-Oct-2017 05:41:33 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 3
+[16-Oct-2017 05:41:33 UTC] PHP Stack trace:
+[16-Oct-2017 05:41:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0
+[16-Oct-2017 05:41:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/labs/lab5/index.php on line 5
+[16-Oct-2017 05:41:33 UTC] PHP Stack trace:
+[16-Oct-2017 05:41:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab5/index.php:0

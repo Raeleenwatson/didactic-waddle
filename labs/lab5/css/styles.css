@@ -1,0 +1,26 @@
+body
+{
+    background-color: black;
+    color:black;
+    text-align: center;
+}
+
+#box
+{
+    background-color:white;
+    width:460;
+    height: 400;
+}
+#borderAround
+{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    height: 2500px;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;  
+    margin-top: 100px;
+
+}
