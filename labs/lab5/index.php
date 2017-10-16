@@ -68,13 +68,6 @@ function displayDevices(){
         
          }
     
-         if(isset($_GET['name']))
-         {
-            $sql = "SELECT *
-            FROM `tc_device`
-            ORDER BY deviceName";
-         }
-         
          
         
     }
