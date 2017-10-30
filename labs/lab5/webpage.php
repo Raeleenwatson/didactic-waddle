@@ -35,7 +35,7 @@ function displayDevices(){
         $namedParameters = array();
         
         
-        if (!empty($_GET['deviceName'])) {
+       if (!empty($_GET['deviceName'])) {
             
             //The following query allows SQL injection due to the single quotes
             //$sql .= " AND deviceName LIKE '%" . $_GET['deviceName'] . "%'";
