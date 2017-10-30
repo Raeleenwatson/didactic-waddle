@@ -92,16 +92,7 @@ if(isset($_GET['updateUserForm']))
                     <label for="genderF">Female</label>
                     <input type="radio" name="gender" value="M" id="genderM"  required/> 
                     <label for="genderM">Male</label><br>
-                    
-                    <?php
-                    if(empty($userInfo['gender']))
-                    {
-                        $gender=$userInfo['gender'];
-                        echo "<label for="genderF">Female</label>";
-                    }
-                    
-                    
-                    ?>
+                   
             Role:   <select name="role">
                         <option value=""> Select One </option>
                         <option>Faculty</option>

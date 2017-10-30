@@ -363,3 +363,63 @@ Stack trace:
 [27-Oct-2017 20:12:53 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php on line 72
 [27-Oct-2017 20:13:11 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php on line 72
 [27-Oct-2017 20:21:48 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php on line 70
+[30-Oct-2017 05:48:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 29
+[30-Oct-2017 05:49:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/rwatson/dbConnection.php on line 39
+[30-Oct-2017 05:49:51 UTC] PHP Stack trace:
+[30-Oct-2017 05:49:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:0
+[30-Oct-2017 05:51:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'ip-10-171-194-27.ec2.internal' (using password: NO)' in /home/ubuntu/workspace/rwatson/dbConnection.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/dbConnection.php(25): PDO->__construct('mysql:host=us-c...')
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(6): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/dbConnection.php on line 25
+[30-Oct-2017 05:54:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 29
+[30-Oct-2017 05:55:02 UTC] PHP Parse error:  syntax error, unexpected 'genderF' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php on line 100
+[30-Oct-2017 05:59:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 29
+[30-Oct-2017 05:59:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 29
+[30-Oct-2017 06:00:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(59): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 59
+[30-Oct-2017 06:00:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(59): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 59
+[30-Oct-2017 06:01:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(59): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 59
+[30-Oct-2017 06:01:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:60
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(60): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 60
+[30-Oct-2017 06:02:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:61
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(61): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 61
+[30-Oct-2017 06:02:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_0adac1666acc680.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:61
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(61): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 61
