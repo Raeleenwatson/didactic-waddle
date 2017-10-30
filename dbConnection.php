@@ -2,16 +2,16 @@
 
 
 function getDatabaseConnection(){
-    /*
+    
     $host = 'us-cdbr-iron-east-05.cleardb.net';//cloud 9
     $dbname = 'heroku_0adac1666acc680';
     $username = 'b1a7169c276343';
-    $password = '6d64554d';*/
-    
+    $password = '6d64554d';
+    /*
     $host = 'localhost';//cloud 9
     $dbname = 'tcp';
     $username = 'root';
-    $password = '';
+    $password = '';*/
     
     //using different database variables in Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
