@@ -423,3 +423,9 @@ Stack trace:
 #0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(61): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 61
+[07-Nov-2017 04:42:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php(40): getUserInfo('<?$userId['user...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php on line 32

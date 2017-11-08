@@ -49,6 +49,7 @@ if(isset($_GET['updateUserForm']))
                 email= :email,
                 universityId= :universityId,
                 phone= :phone,
+                role= :role,
 			WHERE userId = :userId";
 		
 	$namedParameters=array();
@@ -58,6 +59,7 @@ if(isset($_GET['updateUserForm']))
 	$namedParameters[":email"]=$_GET['email'];
 	$namedParameters[":universityId"]=$_GET['universityId'];
 	$namedParameters[":phone"]=$_GET['phone'];
+	$namedParameters[":role"]=$_GET['role'];
 	$stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);	
 			
@@ -93,7 +95,7 @@ if(isset($_GET['updateUserForm']))
                     <input type="radio" name="gender" value="M" id="genderM"  required/> 
                     <label for="genderM">Male</label><br>
                    
-            Role:   <select name="role">
+            Role:   <select name="role" required value="<?=$userInfo['role']?>">
                         <option value=""> Select One </option>
                         <option>Faculty</option>
                         <option>Student</option>
