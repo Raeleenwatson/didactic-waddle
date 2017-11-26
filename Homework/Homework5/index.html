@@ -1,0 +1,76 @@
+<?php
+include '../../dbConnection.php';
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title> Black Friday!</title>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+        <style type="text/css" id="diigolet-chrome-css"> </style>
+  <script>
+      
+      function getDeviceNames()
+      {
+          $.ajax({
+            type: "GET",
+            url: "functions.php",
+            dataType: "json",
+            data: { "deviceName": $("#deviceName").val()},
+            success: function(data,status) {
+            alert(data);
+            if(data)
+                {  
+                   $("#deviceName").html(data.devName);
+                }
+            else
+                {
+                    alert("FAILED");
+                }
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            alert(status);
+            }
+            
+            });//ajax
+          
+      }
+      
+      
+      $(document).ready( function(){
+          
+          $("#deviceName").change( function(){ getDeviceNames(); } );
+             
+         });//docReady
+      
+  </script>
+  
+  
+  
+  
+  
+    </head>
+    <body>
+    
+    <form id="deviceForm">
+        <fieldset>
+            <legend>Find your favorite things by searching here!</legend>
+            Search item by name: <input type="text" id="deviceName" name="dName"> <br>
+            <div id="theNames"></div>
+            Checkout History: <span id ="devName"></span> <br/>
+            Search items by price: <input type="radio" id="priceId" name="price">
+            <label for="priceId">Price</label> <br/>
+            <input type="submit" name="button" id="button" class="btn" value="Search!">
+            
+        </fieldset>
+        
+        
+    </form>
+
+
+    </body>
+</html>
