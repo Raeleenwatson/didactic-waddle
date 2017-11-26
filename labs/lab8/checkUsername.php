@@ -4,6 +4,7 @@
 include '../../dbConnection.php';
 $conn = getDatabaseConnection();
 
+global $conn;
 
 $sql = "SELECT *
         FROM tc_user
