@@ -37,8 +37,9 @@
                   $("#long").html(data.longitude);
               }
               else{
+                  $("#errZip").show();
                   document.getElementById('errZip').style.color="red";
-                  document.getElementById('errZip').innerHTML="Zip code not found."
+                  document.getElementById('errZip').innerHTML="Zip code not found.";
               }
             },
             complete: function(data,status) { //optional, used for debugging purposes
@@ -89,7 +90,7 @@
             success: function(data,status) {
              //alert(data);
                if (!data) {
-                  
+                  $("#errorUserName").show();
                    document.getElementById('errorUserName').style.color="green";
                    document.getElementById('errorUserName').innerHTML="Username Available!";
                    //alert("USERNAME AVAILABLE!");
@@ -118,8 +119,9 @@ function checkPassword()
     var pass2=document.getElementById('password2').value;
     if(pass!=pass2)
     {
+        $("#checkPass").show();
         document.getElementById('checkPass').style.color="red";
-        document.getElementById('checkPass').innerHTML="RE-ENTER PASSWORD. Passwords must match.";
+        document.getElementById('checkPass').innerHTML="Passwords must match.";
     }
     else{
         document.getElementById('checkPass').style.color="green";    
@@ -160,7 +162,8 @@ function checkPassword()
             Last Name:   <input type="text"><br> 
             Email:       <input type="text"><br> 
             Phone Number:<input type="text"><br><br>
-            Zip Code:    <input type="text" id="zip"><br> <div id="errZip"></div>
+            Zip Code:    <input type="text" id="zip"><span id="errZip"></span>
+            <br>
             City: <span id="city"></span> 
             <br>
             Latitude: <span id="lat"></span> 
@@ -181,9 +184,12 @@ function checkPassword()
             <span class="caret"></span></button>
             <ul class="dropdown-menu1" role="menu1" aria-labelledby="menu2">
                     
-            Desired Username: <input type="text" id="username"><div class="alert" id="errorUserName"></div>
+            Desired Username: <input type="text" id="username"> <span class="alert" id="errorUserName"></span>
+            <br/>
+            
             Password: <input id="password" type="password"><br>
-            Type Password Again: <input id="password2" type="password"><br> <div id="checkPass"></div>
+            Type Password Again: <input id="password2" type="password"> <span class="alert" id="checkPass"></span>
+            <br/>
             <input type="submit" class="btn" onclick="checkPassword()" value="Sign up!">
         </fieldset>
     </form>

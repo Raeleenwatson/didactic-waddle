@@ -1,4 +1,10 @@
 body
 {
     text-align: center;
+    width:1000;
+}
+
+#checkPass, #errorUserName, #errZip
+{
+    display:hidden;
 }
