@@ -63,8 +63,8 @@ $conn = getDatabaseConnection();
           $.ajax({
             type: "GET",
             url: "prices.php",
-            dataType: "json",
-            success: function(status) {
+           // dataType: "json",
+            success: function(data,status) {
             alert("HI");
             if(data)
                 {  

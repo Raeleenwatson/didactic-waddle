@@ -7,7 +7,7 @@ $conn = getDatabaseConnection();
 $sql = "UPDATE `tc_device`
         SET `checkoutHistory` = UTC_TIMESTAMP()
         WHERE deviceName = :deviceName";
-
+*/
 
 $sql= "INSERT INTO history (deviceName) 
         VALUES (:deviceName)";
@@ -21,7 +21,7 @@ $sql= "INSERT INTO history (deviceName)
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);
 
-*/
+
 $sql ="SELECT *
         FROM tc_device
         WHERE 1
