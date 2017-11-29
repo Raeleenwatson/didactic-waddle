@@ -57,13 +57,14 @@ $conn = getDatabaseConnection();
       
       
       
-      function prices()
+      /*function prices()
       {
           //alert("HI");
           $.ajax({
             type: "GET",
             url: "prices.php",
-           // dataType: "json",
+            dataType: "json",
+           data: { "price": $(this).attr('price') },
             success: function(data,status) {
             alert("HI");
             if(data)
@@ -84,16 +85,18 @@ $conn = getDatabaseConnection();
             
             });//ajax
           
-      }
+      }*/
       
       
       
       
       $(document).ready( function(){
           
-          $("#deviceName").change( function(){ getDeviceNames(); } );
-         // $("#prices").change(function(){ prices(); });
+          $("#button").click( function(){ getDeviceNames(); } );
+          
+         
          });//docReady
+         
       
   </script>
   
@@ -118,9 +121,7 @@ $conn = getDatabaseConnection();
             <div id="theNames"></div>
             Device information and Checkout History: <div id ="devName"></div> <br/>
             <div id="history"></div>
-            Search items by price: <input type="radio" id="priceId" name="price">
-             <div id="gprices"></div>
-            <input type="submit"class="btn btn-primary" name="button" onclick="prices()" id="button"value="Search!">
+            <input type="button"class="btn btn-primary" name="button" id="button"value="Search!">
         </fieldset>
         
         

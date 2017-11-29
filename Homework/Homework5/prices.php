@@ -7,7 +7,7 @@
             
     
         $stmt = $conn->prepare($sql);
-        $stmt->execute();
+        $stmt->execute(array("price"=>$_GET['price']));
         $record = $stmt->fetchAll(PDO::FETCH_ASSOC);//expecting only one record
         
          echo json_encode($record);
