@@ -10,12 +10,18 @@ $conn = getDatabaseConnection();
 <!DOCTYPE html>
 <html>
     <head>
-        
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title> Black Friday!</title>
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
         <style type="text/css" id="diigolet-chrome-css"> </style>
+        <div id="jumbotron">
+        <div id="info">
   <script>
       
       function getDeviceNames()
@@ -53,16 +59,17 @@ $conn = getDatabaseConnection();
       
       function prices()
       {
+          //alert("HI");
           $.ajax({
             type: "GET",
             url: "prices.php",
-            //dataType: "json",
-            success: function(data,status) {
-            alert(data);
+            dataType: "json",
+            success: function(status) {
+            alert("HI");
             if(data)
                 {  
-                  //alert("BETTER");
-                   $("#prices").html(data);
+                  alert("BETTER");
+                   $("#gprices").html(data);
                   
                 }
             else
@@ -72,7 +79,7 @@ $conn = getDatabaseConnection();
             
             },
             complete: function(data,status) { //optional, used for debugging purposes
-           // alert(status);
+            alert(status);
             }
             
             });//ajax
@@ -90,29 +97,38 @@ $conn = getDatabaseConnection();
       
   </script>
   
-  
-  
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   
     </head>
-    <body>
+    <h1><div id ="mainOne"><strong>ELECTRONICS R US</strong></div></h1>
+    <br>
+    <br>
+    <img src="elecImg.jpg" alt="Picture of Stuff" width=450 height=250 />
+    <br>
+    <br>
+    
+   	<body style="background: url('cyberImg.jpg');">
+    
+    <h1><div id="idk">EXCLUSIVE CYBER MONDAY SALE!!!</div></h1>
     
     <form id="deviceForm">
         <fieldset>
-            <legend>Find your favorite things by searching here!</legend>
+            <legend><strong><h1>Find your favorite things by searching here!</h1></strong></legend>
             Search item by name: <input type="text" id="deviceName" name="dName"> <br>
             <div id="theNames"></div>
-            Checkout History: <div id ="devName"></div> <br/>
+            Device information and Checkout History: <div id ="devName"></div> <br/>
             <div id="history"></div>
             Search items by price: <input type="radio" id="priceId" name="price">
-             <div id="prices"></div>
-            <label for="priceId">Price</label> <br/>
-            <input type="submit" name="button" onclick="prices()" id="button" class="btn" value="Search!">
+             <div id="gprices"></div>
+            <input type="submit"class="btn btn-primary" name="button" onclick="prices()" id="button"value="Search!">
         </fieldset>
         
         
     </form>
-
+    
 
     </body>
+    
+    </div>
+    </div>
 </html>

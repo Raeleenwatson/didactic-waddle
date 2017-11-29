@@ -1,0 +1,35 @@
+header
+{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 500;
+    font-size: 6em;
+    color:red;
+    
+}
+#deviceForm
+{
+    font-size: 1.5em;
+}
+#info
+{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    height: 1500px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+#mainOne
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#idk
+{
+    color:red;
+}
