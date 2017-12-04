@@ -46,7 +46,7 @@
     
     <div style="background:transparent !important" class="jumbotron">
     
-    <h2 style="color:white; text-decoration: underline"> Photo Gallery </h2>
+    <h2 style="font-size:2em; color:white; text-decoration: underline"> Photo Gallery </h2>
     <form method="POST" enctype="multipart/form-data"> 
 
 

@@ -1,0 +1,10 @@
+#other,#page
+{
+    text-align: center;
+    font-size: 1.4em;
+    color:black;
+}
+#page
+{
+    background-color: lightblue;
+}
