@@ -1,5 +1,3 @@
-<link href="css/styles.css" rel="stylesheet" type="text/css" />
-
 <?php
     include 'inc/header.php';
     
@@ -25,9 +23,8 @@
   $(document).ready( function(){
         $(".petLink").click( function(){
             
-             //$("#loadingImage").show();
-            //alert($(this).attr('id'));
-            //$("#loadingImage").show();
+            $("#petInfoModal").modal("show");
+            $("#petInfo").html("<img src='img/loading.gif'>");
             $.ajax({
 
                 type: "GET",
@@ -35,8 +32,6 @@
                 dataType: "json",
                 data: { "id": $(this).attr('id')},
                 success: function(data,status) {
-                
-               $("#loadingImage").show();
                 
                    $("#petInfo").html(" Age: " + data.age + "<br>" + 
                                       " <img src='img/" + data.pictureURL + "'><br >" + 
@@ -87,11 +82,6 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div id="loadingImage">
- <img src="img/loading.gif">
-          </div>
-          <br>
-          <br>
       <div class="modal-body">
            <div id="petInfo"></div> 
       </div>

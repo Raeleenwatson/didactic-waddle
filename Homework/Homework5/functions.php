@@ -34,10 +34,10 @@ $sql ="SELECT *
     $stmt->execute($namedParameters);
   
     $record = $stmt->fetch(PDO::FETCH_ASSOC);//expecting only one record
-    echo json_encode("Device Name:" . " " . $record['deviceName'] . "<br> " ."Device ID: ". " " .$record['deviceId'] ."<br>" . "Device Type: " . $record['deviceType'] . "<br>". "Device Price: $" . $record['price']. "<br>. ");
+    echo json_encode("Device Name:" . " " . $record['deviceName'] . "<br> " ."Device ID: " . " " .$record['deviceId'] ."<br>" . "Device Type: " . $record['deviceType'] . "<br>". "Device Price: $" . $record['price']. "<br> ");
     //echo "\r\n";
-    echo json_encode("<strong>" ."Checkout History:". "<strong> <br>");
-    
+   // echo json_encode("<strong>" ."Checkout History:". "<strong> <br>");
+    echo ("<strong>Checkout History:<strong> <br>");
 $sql="SELECT deviceName, time
     from `history`
     WHERE deviceName = :deviceName";
@@ -52,7 +52,7 @@ $sql="SELECT deviceName, time
     $record = $stmt->fetchAll(PDO::FETCH_ASSOC);//expecting only one record
     foreach($record as $records)
     {
-     echo json_encode($records['deviceName'] ." " . $records['time'] ."<br>");
+     echo json_encode($records['deviceName'] . $records['time'] ."<br> ");
     }
     
     
