@@ -1,0 +1,15 @@
+#page
+{
+    text-align: center;
+    background-color: lightblue;
+    height: 100;
+    width: 100;
+}
+#other
+{
+    text-align: center;
+}
+h2
+{
+    text-decoration: underline;
+}
