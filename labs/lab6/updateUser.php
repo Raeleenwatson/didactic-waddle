@@ -36,10 +36,7 @@ function getUserInfo($userId) {
 }
 
 if (isset($_GET['userId'])) {
-    
     $userInfo = getUserInfo($_GET['userId']);
-    
-    
 }
 if(isset($_GET['updateUserForm']))
 {
@@ -60,6 +57,7 @@ if(isset($_GET['updateUserForm']))
 	$namedParameters[":universityId"]=$_GET['universityId'];
 	$namedParameters[":phone"]=$_GET['phone'];
 	$namedParameters[":role"]=$_GET['role'];
+	
 	$stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);	
 			

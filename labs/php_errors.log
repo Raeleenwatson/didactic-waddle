@@ -1061,3 +1061,38 @@ Stack trace:
 [01-Dec-2017 20:29:11 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/rwatson/labs/lab9/adoptions.php:4
 [01-Dec-2017 21:14:25 UTC] PHP Parse error:  syntax error, unexpected 'image' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/rwatson/labs/lab10/index.php on line 12
 [04-Dec-2017 07:12:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/rwatson/labs/lab9/adoptions.php on line 76
+[06-Dec-2017 09:45:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/loginProcess.php on line 30
+[06-Dec-2017 10:36:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/admin.php(68): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php on line 21
+[06-Dec-2017 10:36:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php(40): getUserInfo('2')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php on line 32
+[06-Dec-2017 10:36:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/admin.php(68): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php on line 21
+[06-Dec-2017 10:36:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php(40): getUserInfo('2')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/updateUser.php on line 32
+[06-Dec-2017 10:36:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/labs/lab6/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/labs/lab6/admin.php(68): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/labs/lab6/admin.php on line 21

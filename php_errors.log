@@ -267,3 +267,550 @@ Stack trace:
 [20-Oct-2017 08:56:37 UTC] PHP Fatal error:  Call to undefined function orderedPopulation() in /home/ubuntu/workspace/rwatson/practice/practice_program2.php on line 107
 [20-Oct-2017 08:56:37 UTC] PHP Stack trace:
 [20-Oct-2017 08:56:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/practice/practice_program2.php:0
+[06-Dec-2017 05:49:14 UTC] PHP Warning:  Illegal string offset ' 	
+' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 34
+[06-Dec-2017 05:49:14 UTC] PHP Stack trace:
+[06-Dec-2017 05:49:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/index.php:0
+[06-Dec-2017 05:49:14 UTC] PHP   2. showImg() /home/ubuntu/workspace/rwatson/finalProject/index.php:59
+[06-Dec-2017 05:49:36 UTC] PHP Warning:  Illegal string offset ' 	
+' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 34
+[06-Dec-2017 05:49:36 UTC] PHP Stack trace:
+[06-Dec-2017 05:49:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/index.php:0
+[06-Dec-2017 05:49:36 UTC] PHP   2. showImg() /home/ubuntu/workspace/rwatson/finalProject/index.php:60
+[06-Dec-2017 05:49:41 UTC] PHP Warning:  Illegal string offset ' 	
+' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 34
+[06-Dec-2017 05:49:41 UTC] PHP Stack trace:
+[06-Dec-2017 05:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/index.php:0
+[06-Dec-2017 05:49:41 UTC] PHP   2. showImg() /home/ubuntu/workspace/rwatson/finalProject/index.php:60
+[06-Dec-2017 05:49:47 UTC] PHP Warning:  Illegal string offset ' 	
+' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 34
+[06-Dec-2017 05:49:47 UTC] PHP Stack trace:
+[06-Dec-2017 05:49:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/index.php:0
+[06-Dec-2017 05:49:47 UTC] PHP   2. showImg() /home/ubuntu/workspace/rwatson/finalProject/index.php:60
+[06-Dec-2017 05:50:18 UTC] PHP Warning:  Illegal string offset ' 	
+' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 34
+[06-Dec-2017 05:50:18 UTC] PHP Stack trace:
+[06-Dec-2017 05:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/index.php:0
+[06-Dec-2017 05:50:18 UTC] PHP   2. showImg() /home/ubuntu/workspace/rwatson/finalProject/index.php:60
+[06-Dec-2017 06:16:43 UTC] PHP Fatal error:  Call to undefined function ucword() in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 34
+[06-Dec-2017 06:16:43 UTC] PHP Stack trace:
+[06-Dec-2017 06:16:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/index.php:0
+[06-Dec-2017 06:16:43 UTC] PHP   2. showImg() /home/ubuntu/workspace/rwatson/finalProject/index.php:58
+[06-Dec-2017 06:31:54 UTC] PHP Parse error:  syntax error, unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 58
+[06-Dec-2017 06:32:13 UTC] PHP Parse error:  syntax error, unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 59
+[06-Dec-2017 06:32:21 UTC] PHP Parse error:  syntax error, unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 59
+[06-Dec-2017 06:32:22 UTC] PHP Parse error:  syntax error, unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 59
+[06-Dec-2017 08:13:56 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:13:56 UTC] PHP Stack trace:
+[06-Dec-2017 08:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:13:56 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:13:56 UTC] PHP Stack trace:
+[06-Dec-2017 08:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:13:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 3
+[06-Dec-2017 08:13:56 UTC] PHP Stack trace:
+[06-Dec-2017 08:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:14:37 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:14:37 UTC] PHP Stack trace:
+[06-Dec-2017 08:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:14:37 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:14:37 UTC] PHP Stack trace:
+[06-Dec-2017 08:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:14:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 3
+[06-Dec-2017 08:14:37 UTC] PHP Stack trace:
+[06-Dec-2017 08:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:14:39 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:14:39 UTC] PHP Stack trace:
+[06-Dec-2017 08:14:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:14:39 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:14:39 UTC] PHP Stack trace:
+[06-Dec-2017 08:14:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:14:39 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 3
+[06-Dec-2017 08:14:39 UTC] PHP Stack trace:
+[06-Dec-2017 08:14:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:15:30 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:15:30 UTC] PHP Stack trace:
+[06-Dec-2017 08:15:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:15:30 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 2
+[06-Dec-2017 08:15:30 UTC] PHP Stack trace:
+[06-Dec-2017 08:15:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:15:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 3
+[06-Dec-2017 08:15:30 UTC] PHP Stack trace:
+[06-Dec-2017 08:15:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productName' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productType' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'rating' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productName' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productType' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'rating' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productName' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productType' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'rating' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productName' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productType' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'rating' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productName' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productType' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'rating' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productName' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'productType' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'rating' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 08:23:06 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 21
+[06-Dec-2017 08:23:06 UTC] PHP Stack trace:
+[06-Dec-2017 08:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:0
+[06-Dec-2017 09:49:33 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php on line 4
+[06-Dec-2017 09:49:33 UTC] PHP Stack trace:
+[06-Dec-2017 09:49:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php:0
+[06-Dec-2017 09:49:33 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php on line 4
+[06-Dec-2017 09:49:33 UTC] PHP Stack trace:
+[06-Dec-2017 09:49:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php:0
+[06-Dec-2017 09:49:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php on line 5
+[06-Dec-2017 09:49:33 UTC] PHP Stack trace:
+[06-Dec-2017 09:49:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php:0
+[06-Dec-2017 09:50:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_admin' doesn't exist' in /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/loginProcess.php on line 21
+[06-Dec-2017 10:07:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.products' doesn't exist' in /home/ubuntu/workspace/rwatson/finalProject/admin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/admin.php(24): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/admin.php(46): displayProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/admin.php on line 24
+[06-Dec-2017 10:18:56 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 10
+[06-Dec-2017 10:18:56 UTC] PHP Stack trace:
+[06-Dec-2017 10:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:0
+[06-Dec-2017 10:18:56 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 10
+[06-Dec-2017 10:18:56 UTC] PHP Stack trace:
+[06-Dec-2017 10:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:0
+[06-Dec-2017 10:18:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 11
+[06-Dec-2017 10:18:56 UTC] PHP Stack trace:
+[06-Dec-2017 10:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:0
+[06-Dec-2017 10:21:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): productInfo('EyebrowMakeup')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 10:25:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('EyebrowMakeup')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 10:25:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tc_user' doesn't exist' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('HairProduct')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 10:26:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'HairProduct' in 'where clause'' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('HairProduct')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 10:27:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'HairProduct' in 'where clause'' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('HairProduct')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 10:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.products' doesn't exist' in /home/ubuntu/workspace/rwatson/finalProject/admin.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/admin.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/admin.php(45): displayProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/admin.php on line 23
+[06-Dec-2017 10:59:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 11:01:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 11:02:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 11:02:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(27): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 20
+[06-Dec-2017 11:03:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 11:04:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 11:06:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:09:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:09:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:37:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:37:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:37:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:37:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:37:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:38:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:38:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:39:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:39:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:42:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:42:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:43:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:43:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:43:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:43:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:43:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:44:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:44:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:44:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(28): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 21
+[06-Dec-2017 20:44:40 UTC] PHP Fatal error:  Call to undefined function getProductInfo() in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 28
+[06-Dec-2017 20:44:40 UTC] PHP Stack trace:
+[06-Dec-2017 20:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:0
+[06-Dec-2017 20:46:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 20:47:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 20:48:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 20:50:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 20:50:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 20:50:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 20:51:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE productId = '10'' at line 7' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(54): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 54
+[06-Dec-2017 20:51:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 21:51:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/getProducts.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 32
+[06-Dec-2017 22:25:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 124
+[06-Dec-2017 22:45:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 33
+[06-Dec-2017 22:45:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 33
+[06-Dec-2017 23:06:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:25:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/rwatson/finalProject/admin.php on line 73
+[06-Dec-2017 23:28:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:31:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:31:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:52:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:52:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:55:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:57:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[06-Dec-2017 23:58:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(22): PDOStatement->execute()
+#1 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(29): getProductInfo('<?$productId['p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 22
+[07-Dec-2017 00:01:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php:55
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php(55): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/updateProduct.php on line 55
+[07-Dec-2017 05:31:37 UTC] PHP Fatal error:  Call to undefined function avgPrice() in /home/ubuntu/workspace/rwatson/finalProject/adminStart.php on line 45
+[07-Dec-2017 05:31:37 UTC] PHP Stack trace:
+[07-Dec-2017 05:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminStart.php:0
+[07-Dec-2017 05:32:12 UTC] PHP Fatal error:  Call to undefined function avgPrice() in /home/ubuntu/workspace/rwatson/finalProject/adminStart.php on line 19
+[07-Dec-2017 05:32:12 UTC] PHP Stack trace:
+[07-Dec-2017 05:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminStart.php:0
+[07-Dec-2017 05:32:13 UTC] PHP Fatal error:  Call to undefined function avgPrice() in /home/ubuntu/workspace/rwatson/finalProject/adminStart.php on line 19
+[07-Dec-2017 05:32:13 UTC] PHP Stack trace:
+[07-Dec-2017 05:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminStart.php:0
+[07-Dec-2017 05:32:14 UTC] PHP Fatal error:  Call to undefined function avgPrice() in /home/ubuntu/workspace/rwatson/finalProject/adminStart.php on line 19
+[07-Dec-2017 05:32:14 UTC] PHP Stack trace:
+[07-Dec-2017 05:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminStart.php:0
+[07-Dec-2017 05:32:29 UTC] PHP Fatal error:  Call to undefined function avgPrice() in /home/ubuntu/workspace/rwatson/finalProject/adminStart.php on line 20
+[07-Dec-2017 05:32:29 UTC] PHP Stack trace:
+[07-Dec-2017 05:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminStart.php:0
+[07-Dec-2017 05:32:30 UTC] PHP Fatal error:  Call to undefined function avgPrice() in /home/ubuntu/workspace/rwatson/finalProject/adminStart.php on line 20
+[07-Dec-2017 05:32:30 UTC] PHP Stack trace:
+[07-Dec-2017 05:32:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminStart.php:0
+[07-Dec-2017 06:21:19 UTC] PHP Fatal error:  Call to undefined function getDepartmentInfo() in /home/ubuntu/workspace/rwatson/finalProject/insertProduct.php on line 39
+[07-Dec-2017 06:21:19 UTC] PHP Stack trace:
+[07-Dec-2017 06:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/insertProduct.php:0
+[07-Dec-2017 06:46:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/rwatson/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/deleteProduct.php on line 9
+[07-Dec-2017 07:43:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/rwatson/finalProject/products.php on line 12
+[07-Dec-2017 08:12:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productName' cannot be null' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/getProducts.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 42
+[07-Dec-2017 08:13:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/getProducts.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 41
+[07-Dec-2017 08:13:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/rwatson/finalProject/getProducts.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 41
+[07-Dec-2017 08:19:21 UTC] PHP Parse error:  syntax error, unexpected ''.$_GET['' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 52
+[07-Dec-2017 08:19:49 UTC] PHP Parse error:  syntax error, unexpected 'searchId' (T_STRING) in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 52
+[07-Dec-2017 08:22:23 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 52
+[07-Dec-2017 08:22:47 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 52
+[07-Dec-2017 08:22:48 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 52
+[07-Dec-2017 08:23:22 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/rwatson/finalProject/getProducts.php on line 52
+[07-Dec-2017 09:14:13 UTC] PHP Warning:  include(headerphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/rwatson/finalProject/adminFormLog.php on line 2
+[07-Dec-2017 09:14:13 UTC] PHP Stack trace:
+[07-Dec-2017 09:14:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminFormLog.php:0
+[07-Dec-2017 09:14:13 UTC] PHP Warning:  include(): Failed opening 'headerphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/rwatson/finalProject/adminFormLog.php on line 2
+[07-Dec-2017 09:14:13 UTC] PHP Stack trace:
+[07-Dec-2017 09:14:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/rwatson/finalProject/adminFormLog.php:0
+[07-Dec-2017 23:59:20 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/rwatson/finalProject/index.php on line 117

@@ -44,6 +44,8 @@ function displayImage($randomPic)
     $message=$symbol;
     
     echo "<img id='pics' src ='img/$symbol.jpg' alt='$symbol' title='" .ucfirst($symbol)."' width=35% />";
+    
+    echo "<img src ='img/$symbol.jpg'  />";
 }
 function showText()
 {
