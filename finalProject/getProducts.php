@@ -33,7 +33,7 @@ $sql= "SELECT *  from products
    echo "<strong style='font-size:1.4em;'>Product Name: </strong>"." <strong style='color:#FF66B2; font-size:1.2em;'>" .$record['productName']. "</strong> <br> <strong style='font-size:1.4em;'> Product Type: </strong>"." <strong style='color:#FF66B2; font-size:1.2em;'>". $record['productType']."</strong> <br><strong style='font-size:1.4em;'> Rating: </strong>"." <strong style='color:#FF66B2; font-size:1.2em;'>". $record['rating']. "stars </strong> <br> <strong style='font-size:1.4em;'> Price: </strong>"." <strong style='color:#FF66B2; font-size:1.2em; '> $" .$record['price'];
   
  //PUTTING INTO HISTORY TABLE THEN GETTING COUNT
-  $sql= "INSERT INTO history (productName) 
+  $sql= "INSERT INTO shop_history (productName) 
         VALUES (:searchName)";
 
     $stmt = $conn->prepare($sql);
@@ -41,15 +41,15 @@ $sql= "SELECT *  from products
 
     
      $sql="SELECT COUNT(time) temp
-    FROM `history`
+    FROM `shop_history`
     WHERE productName = :searchName";
     
     $stmt = $conn->prepare($sql);
-    $stmt->execute($namedParameters);
+  $stmt->execute($namedParameters);
     
     $record = $stmt->fetch(PDO::FETCH_ASSOC);//expecting only one record
-   echo "<br>";
-   echo $tempName . " was searched " . " " . $record['temp'] . " ". "times.";
+  echo "<br>";
+  echo $tempName . " was searched " . " " . $record['temp'] . " ". "times.";
     
     
 ?>
