@@ -32,7 +32,7 @@
             <strong style="font-family: 'Dancing Script', cursive;color:#FF66B2; font-size:3em;">Search for an item:</strong> <input type="text" id="searchId" name='searchId' > <br>
             <br>
             <form action="prices.php" >
-           <input type="submit" class="btn btn-secondary btn-md" name="priceSorter" value="Search items by Price!"><br><br>
+           <input type="submit" class="btn btn-secondary btn-md" name="priceSorter" value="Sort items by Price!"><br><br>
             </form>
             
             <button type="submit" class="btn btn-secondary btn-lg"  name="subBtn" id="subId"> Search!</button>
